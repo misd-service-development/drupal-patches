@@ -140,3 +140,6 @@ index c7f5281..49fdd41 100644
   */
 -function link_url_type($text) {
 +function link_validate_url($text) {
+   // @TODO Complete letters.
+   // @codingStandardsIgnoreStart
+   $link_ichars_domain = (string) html_entity_decode(implode("", array(
